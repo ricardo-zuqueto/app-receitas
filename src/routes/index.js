@@ -27,11 +27,7 @@ export function Routes() {
         options={{
           tabBarIcon: ({ color, size, focused }) => {
             if (focused) {
-              return (
-                <Image source="https://www.planura.mg.leg.br/imagens/teste.jpg/image_view_fullscreen" />
-              );
-
-              //    <Ionicons name="home" color="#000" size={size}/>
+              return <Ionicons name="home" color="#000" size={size} />;
             }
 
             return <Ionicons name="home-outline" color={color} size={size} />;
